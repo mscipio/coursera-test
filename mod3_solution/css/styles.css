@@ -1,0 +1,75 @@
+body {
+  font-size: 16px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #bfbfbf;
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+.navbar-brand {
+  height: 60px
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin: 0 auto 0 45px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #000;
+  background-color: #fff;
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #4d4d4d;
+  color: #fff;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+.navbar-header button.navbar-toggle:hover{
+	background: #4d4d4d;
+}
+/* END HEADER */
+
+/* CONTENT TITLE */
+.container .text-center h1,
+.container .text-center h2{
+	font-weight: bold;
+}
+
+/* CONTENT BOX */
+.row{
+	padding: 0 50px 50px 50px;
+}
+.text-box{
+	background-color: #bfbfbf;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
